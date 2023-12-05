@@ -1,0 +1,57 @@
+/* Player.module.css */
+.container {
+    position: relative;
+    
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+  }
+  .playbut{
+    cursor: pointer;
+    
+    max-height: 8vw;
+  }
+  .but{
+    max-height: 1.5vw;
+  }
+  
+  .progress1 {
+    margin-bottom: 5px;
+    margin-top: 20px;
+    display: flex;
+    border-radius: 999px;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    width: 100% !important;
+    height: 5px;
+    background: #3d5af1;
+    cursor: pointer;
+  }
+  
+  .progress1percent {
+    height: 120%;
+    width: 100%;
+    background: #0e153a;
+    transition: width 0.2s ease;
+    position: relative; /* Added to make sure the ::after is positioned relative to this element */
+  }
+  
+  /* Add the following styles for the bullet */
+  .progress1percent::after {
+    content: '';
+    position: absolute;
+    top: -5px;
+    right: 0;
+    width: 12px; /* Adjust the width of the bullet */
+    height: 12px; /* Adjust the height of the bullet */
+    background: #333; /* Adjust the color of the bullet */
+    border-radius: 50%;
+    transform: translateX(50%);
+  }
+  

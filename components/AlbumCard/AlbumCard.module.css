@@ -1,0 +1,111 @@
+.container1{
+    position: relative;
+    width: 23rem;
+    
+  
+    border-radius: 15px;
+    border: solid 5px #3d5af1; 
+    
+    height: 25rem;
+    }
+    .Spin{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+    .img{
+        z-index: -1;
+        position: absolute;
+        border-radius: 15px;
+ 
+        border-radius: 15px;
+        width: 22.4rem;
+      
+        height: 24.5rem;
+    }
+    .span1>h3{
+  
+        display: none;
+    }
+    .span1{
+       
+        padding-bottom: 60px;
+        align-items: flex-end;
+        display: flex;
+        justify-content: space-around;
+        border-radius: 15px;
+        z-index: 1;
+      
+       
+        width: 22.7rem;
+        height: 14rem;
+        position: absolute;
+       
+        bottom: -3px;
+        
+    
+    }
+    .container1:hover {
+        background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgb(0, 0, 0));
+      }
+      
+      .container1:hover .span1>h3 {
+        display: block;
+      }
+
+      @media (max-width: 768px) {
+
+        .container1{
+            margin: 4px;
+            position: relative;
+            width: 10rem;
+            
+          
+            border-radius: 15px;
+            border: solid 5px #3d5af1; 
+            
+            height: 11rem;
+            }
+            .img{
+                z-index: -1;
+                position: absolute;
+                border-radius: 15px;
+         
+              
+                width: 9.6rem;
+              
+                height: 10.6rem;
+            }
+            .span1>h3{
+          
+                display: block;
+            }
+            .span1{
+                background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgb(0, 0, 0));
+                padding-bottom: 10px;
+                align-items: flex-end;
+                display: flex;
+                justify-content: space-around;
+                border-radius: 15px;
+                z-index: 1;
+              
+               
+                width: 9.4rem;
+                height: 10rem;
+                position: absolute;
+               
+                bottom: -3px;
+                
+            
+            }
+            .container1:hover {
+                background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgb(0, 0, 0));
+              }
+              
+              .container1:hover .span1>h3 {
+                display: block;
+              }
+        
+
+      }

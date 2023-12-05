@@ -1,0 +1,154 @@
+/* Player.module.css */
+.container {
+    position: relative;
+  
+    
+    
+    display: flex;
+    gap: 40px;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    
+    
+  }
+  .butcont{
+    display: flex;
+    gap: 35px;
+    
+  }
+  .but{
+    cursor: pointer;
+    color: #22d1ee;
+    max-width: 20px;
+    max-height: 30px;
+    
+  }
+  .but2{
+    cursor: pointer;
+    color: #22d1ee;
+    max-width: 20px;
+    max-height: 30px;
+    
+  }
+  .but2:hover{
+    color: #3d5af1;
+  }
+  .but:hover{
+    color: #3d5af1;
+  }
+  
+  .progress1 {
+    margin-bottom: 5px;
+    margin-top: 20px;
+    display: flex;
+    border-radius: 99px;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    width: 70% !important;
+    height: 5px;
+    background: #3d5af1;
+    cursor: pointer;
+  }
+  
+  .progress1percent {
+    height: 120%;
+    width: 100%;
+    border-radius: 999px;
+    background: #1f4287;
+    transition: width 0.2s ease;
+    position: relative; /* Added to make sure the ::after is positioned relative to this element */
+  }
+  
+  /* Add the following styles for the bullet */
+  .progress1percent::after {
+    content: '';
+    position: absolute;
+    top: -5px;
+    right: 0;
+    width: 12px; /* Adjust the width of the bullet */
+    height: 12px; /* Adjust the height of the bullet */
+    background: #333; /* Adjust the color of the bullet */
+    border-radius: 50%;
+    transform: translateX(50%);
+  }
+  @media (max-width: 768px) {
+/* Player.module.css */
+.container {
+  position: relative;
+
+  
+  
+  display: flex;
+  gap: 10px;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  
+  
+}
+.butcont{
+  display: flex;
+  gap: 20px;
+  
+}
+.but{
+  cursor: pointer;
+  color: #22d1ee;
+  max-width: 20px;
+  max-height: 30px;
+  
+}
+.but2{
+  cursor: pointer;
+  color: #22d1ee;
+  max-width: 20px;
+  max-height: 30px;
+  
+}
+.but2:hover{
+  color: #3d5af1;
+}
+.but:hover{
+  color: #3d5af1;
+}
+
+.progress1 {
+  margin-bottom: 5px;
+  margin-top: 20px;
+  display: flex;
+  border-radius: 99px;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+  width: 70% !important;
+  height: 5px;
+  background: #3d5af1;
+  cursor: pointer;
+}
+
+.progress1percent {
+  height: 120%;
+  width: 100%;
+  border-radius: 999px;
+  background: #1f4287;
+  transition: width 0.2s ease;
+  position: relative; /* Added to make sure the ::after is positioned relative to this element */
+}
+
+/* Add the following styles for the bullet */
+.progress1percent::after {
+  content: '';
+  position: absolute;
+  top: -5px;
+  right: 0;
+  width: 12px; /* Adjust the width of the bullet */
+  height: 12px; /* Adjust the height of the bullet */
+  background: #333; /* Adjust the color of the bullet */
+  border-radius: 50%;
+  transform: translateX(50%);
+}
+
+
+  }

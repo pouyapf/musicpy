@@ -1,0 +1,14 @@
+.Pagination{
+    background-color: #1a1a1a;
+    border: none;
+    margin: 10px;
+    color: aliceblue;
+    padding: 15px;
+    border-radius: 999px;
+
+}
+.Pagination:focus{
+    background-color: blue;
+   
+
+}

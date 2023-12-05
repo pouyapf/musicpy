@@ -1,0 +1,186 @@
+.container{
+    margin-top: 10vh;
+    z-index: 0;
+    padding-bottom: 100px;
+  
+    
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5vw;
+}
+.container1{
+  
+   z-index: 0;
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    position: relative;
+
+   
+    width: 100%;
+ 
+}
+.but{
+    cursor: pointer;
+}
+.but:hover{
+    color:#0e153a ;
+}
+.incont{
+    z-index: 0;
+    margin-top: 5vw;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.in{
+    z-index: 0;
+    background-color: transparent;
+    border: none;
+    width: 80%;
+    height: 5vw;
+    padding-left: 28vw;
+    border-radius: 999px;
+    border-bottom: solid 5px #3d5af1;
+    outline: none;
+   
+    font-size: 1.5vw;
+    color: #3d5af1; 
+   
+}
+.in:focus{
+    color: #22d1ee;
+    font-size: 1.5vw;
+     
+  }
+.in::placeholder {   
+    color: #3d5af1; /* Set the color of the placeholder text */
+     /* Set the font style of the placeholder text */
+    /* Add any other styles you want to apply to the placeholder text */
+}
+.butcont{z-index: 0;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgb(0, 0, 0));
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    display: flex;
+   position: absolute;
+   bottom: 0vh;
+    
+
+
+    
+}
+.notfound{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    width: 40vw;
+    height: 70vh;
+}
+.notfound >span {
+    font-size: xxx-large;
+}
+.butcont >span{
+
+    background-color: #3d5af1;
+    padding: 15px;
+    border-radius: 40px;
+}
+
+@media (max-width: 768px) {
+    .container{
+        margin-top: 5vh;
+        z-index: 0;
+     
+        width: 100%;
+        
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 0vw;
+    }
+    .container1{
+       
+       z-index: 0;
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+        position: relative;
+    
+       
+        width: 100%;
+     
+    }
+    .incont{
+       
+        z-index: 0;
+        margin-top: 3vh;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+    .in{
+        z-index: 0;
+        background-color: transparent;
+        border: none;
+        width: 80%;
+        height: 5vh;
+        border-radius: 999px;
+        border-bottom: solid 5px #3d5af1;
+        outline: none;
+        padding: 20px;
+        font-size: 3.5vw;
+        color: #888; 
+       
+    }
+    .in:focus{
+        color: #22d1ee;
+        font-size: 5.5vw;
+         
+      }
+    .in::placeholder {  
+        font-size: 20px; 
+        color: #888; /* Set the color of the placeholder text */
+         /* Set the font style of the placeholder text */
+        /* Add any other styles you want to apply to the placeholder text */
+    }
+    .butcont{z-index: 0;
+        background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgb(0, 0, 0));
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        height: 20vh;
+        display: flex;
+       position: absolute;
+       bottom: 0vh;
+        
+    
+    
+        
+    }
+    .notfound{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+        width: 40vw;
+        height: 70vh;
+    }
+    .notfound >span {
+        font-size: xxx-large;
+    }
+    .butcont >span{
+    
+        background-color: #3d5af1;
+        padding: 15px;
+        border-radius: 40px;
+    }
+
+
+}

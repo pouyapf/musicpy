@@ -1,0 +1,177 @@
+
+
+
+
+
+
+.container{
+    margin-top: 3vw;
+    width: 100%;
+    
+    height: max-content;
+    display: flex;
+    justify-content: center;
+}
+.body{
+    position: relative;
+    padding: 20px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgb(0, 0, 0));
+    height: fit-content;
+    flex-direction: column;
+    border-radius: 30px;
+}
+.image1{
+    margin-top: 2vw;
+    width: 85vw;
+    height: 50vw;
+    margin-bottom: 3vw;
+    border-radius: 10px;
+}
+.des{
+    color: #22d1ee;
+    line-height: 2.5vw;
+    width: 80vw;
+    font-size: 1.3vw;
+}
+.head{
+    margin-bottom: 3vw;
+    color: rgb(189, 177, 165);
+    display: flex;
+    flex-direction: column;
+
+    width: 90%;
+   
+}
+.head >h1{
+    font-size: 2vw;
+    color: #3d5af1;
+
+}
+.image2{
+    width: 50vw;
+    height: 30vw;
+
+}
+.imagescont{
+    
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.headright{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   justify-content: space-between;
+    color: #3d5af1;
+}
+.des::-webkit-scrollbar {
+    width: 1.5vh; /* Width of the scrollbar */
+  }
+  
+  /* Style the scrollbar thumb (the draggable part) */
+  .des::-webkit-scrollbar-thumb {
+    background-color: #3d5af1; /* Color of the scrollbar thumb */
+    border-radius: 6px; /* Rounded corners for the thumb */
+  }
+  .intitle{
+    color: red;
+  }
+  .Spin{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+
+@media (max-width: 768px) {
+
+
+
+
+
+
+
+    .container{
+        margin-top: 3vw;
+        width: 100%;
+        
+        height: max-content;
+        display: flex;
+        justify-content: center;
+    }
+    .body{
+        width: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgb(0, 0, 0));
+        height: fit-content;
+        flex-direction: column;
+        border-radius: 30px;
+    }
+    .image1{
+        margin-top: 3vw;
+        width: 85vw;
+        height: 60vw;
+        margin-bottom: 3vw;
+        border-radius: 10px;
+    }
+    .des{
+        color: #22d1ee;
+        line-height: normal;
+        
+        width: 80vw;
+        font-size: 15px;
+    }
+    .head{
+        margin-bottom: 3vw;
+        color: rgb(189, 177, 165);
+        display: flex;
+        flex-direction: column;
+        font-size: 3vw;
+    
+        width: 90%;
+       
+    }
+    .head >h1{
+        font-size: 5vw;
+        color: #3d5af1;
+    
+    }
+    .image2{
+        width: 80vw;
+        height: 60vw;
+    
+    }
+    .imagescont{
+        
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .headright{
+        display: flex;
+        flex-direction: column;
+        align-items:flex-start;
+       justify-content: space-between;
+        color: #3d5af1;
+    }
+    .des::-webkit-scrollbar {
+        width: 1.5vh; /* Width of the scrollbar */
+      }
+      
+      /* Style the scrollbar thumb (the draggable part) */
+      .des::-webkit-scrollbar-thumb {
+        background-color: #3d5af1; /* Color of the scrollbar thumb */
+        border-radius: 6px; /* Rounded corners for the thumb */
+      }
+      .intitle{
+        color: red;
+      }
+}

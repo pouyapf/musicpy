@@ -1,0 +1,161 @@
+.container{
+    padding-bottom: 200px;
+    margin-top: 7vh;
+    width: 100%;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+
+.pa{
+    color: #e2f3f5;
+    margin-left: 15px;
+}
+.container1{
+    padding-top: 50px;
+    padding-bottom: 200px;
+    flex-direction: row;
+    border-radius: 20px;
+    display: flex;
+
+    
+ 
+    
+    width: 95%;
+    background: rgba(14, 21, 58, 0.7)
+
+}
+.imgcont{
+    position: relative;
+    
+    margin-left: 30px;
+    width: 45%;
+}
+.Spin{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+.downbox{
+    flex: 1;
+   
+}
+.img{
+   
+    
+    border-radius: 15px;
+    margin: 10px;
+    width: 800px;
+    height: 600px;
+}
+.names{
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: space-around;
+}
+.links{
+    
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.pacont{
+       max-height: 200px;
+    min-height: 200px;
+    overflow: auto;
+}
+.names >h2{
+    color: #3d5af1;
+}
+@media (max-width: 768px) {
+
+    .container{
+        padding-bottom: 50px;
+        margin-top: 7vh;
+        width: 100%;
+      
+      
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+    
+    }
+    
+    .pa{
+        color: #e2f3f5;
+        margin-left: 15px;
+    }
+    .container1{
+        padding-top:10px;
+        padding-bottom: 50px;
+        flex-direction: column;
+        border-radius: 20px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    
+        
+     
+        
+        width: 95%;
+        background: rgba(14, 21, 58, 0.7)
+    
+    }
+    .pacont{ max-height: 200px;
+       
+        min-height: 100px;
+        overflow: auto;
+    }
+    .imgcont{
+     
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       
+        margin-left: 0px;
+        width: 90%;
+        
+        
+    }
+    .downbox{
+        flex: 1;
+       
+    }
+    .img{
+       
+        
+        border-radius: 15px;
+        margin: 10px;
+        width: 340px;
+        height: 350px;
+    }
+    .names{
+       
+        width: 90vw;
+        display: flex;
+        flex-direction: row;
+        
+        justify-content: space-around;
+    }
+    .links{
+       
+        
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .names >h2{
+        color: #3d5af1;
+    }
+
+}

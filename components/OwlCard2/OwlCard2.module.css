@@ -1,0 +1,128 @@
+.container{
+    width: 23vw;
+
+    max-height: 15vw;
+    padding: 10px;
+    background-color: #1a1a1a;
+    display: flex;
+    overflow: hidden;
+    justify-content: space-between;
+    border-radius: 15px;
+    border: solid 5px #3d5af1; 
+}
+.imgcont{
+  
+    position: relative;
+    flex: 1;
+   width: 150vw;
+   height: 10vw;
+  
+    
+    
+    
+   
+}
+.Spin{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+.img{
+    border-radius:15px ;
+   
+    height: 10vw;
+}
+.detail{
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+
+   
+    margin-left: 1.2vw;
+    
+    flex: 1.0;
+}
+.detail_name {
+    height: 90px;
+    max-height: 90px;
+    gap: 0.7vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+    
+}
+
+
+.detail_name h3 {
+    font-size: 1vw;
+   
+    margin: 0;  /* Add this to remove the default margin */
+}
+
+@media (max-width: 768px) {
+    .container{
+        width: 350px;
+    
+        max-height: 250px;
+        padding: 10px;
+        background-color: #1a1a1a;
+        display: flex;
+        overflow: hidden;
+        justify-content: space-between;
+        border-radius: 15px;
+        border: solid 5px #3d5af1; 
+    }
+    .detail_singer{
+        color: #3d5af1;
+        font-weight: bold !important;
+        font-size: 20px !important;
+    }
+    .imgcont{
+
+      
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex: 1;
+  
+       height: 170px;
+        
+        
+        
+       
+    }
+    .img{
+        border-radius:15px ;
+   
+   height: 150px;
+    }
+    .detail{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    
+       
+        margin-left: 20px;
+        
+        flex: 1.0;
+    }
+    .detail_name {
+        height: 90px;
+        max-height: 90px;
+        gap: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 100%;
+        
+    }
+    
+    .detail_name h3 {
+        font-size: 13px;
+        margin: 0;  /* Add this to remove the default margin */
+    }
+  
+
+}
